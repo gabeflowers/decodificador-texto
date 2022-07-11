@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Goldman&display=swap" rel="stylesheet">
+    <title>Decodificador</title>
+</head>
+<body>
+    <header>
+        <div class="caixa">
+            <img src="imagens/LogoAlura.png.png" alt="logo alura">
+            <h1 class="titulo">Codificador de Texto</h1>
+        </div>
+        
+    </header>
+
+    <main class="main">
+        <section>
+            <textarea class="input-texto" cols="40" rows="10" placeholder="digite seu texto:"></textarea>
+            <div>
+                <h6 class="informacao"> Apenas Letras Maiúsculas e minúsculas</h6>
+            </div>
+            <div class="botoes">
+                <button class="encriptar" onclick="btnEncriptar()">
+                    criptografar
+                </button>
+                <button class="descriptar" onclick="btnDescriptar()">
+                    descriptografar
+                </button>
+            </div>
+        </section>
+        
+
+        <section>
+            <textarea class="mensagem" ></textarea>
+        </section>
+    </main>
+
+    <footer>
+        <p class="copyright">&copy; Copyright Gabriel Flores Bordin - 2022</p>
+    </footer>
+    <script src="script.js"></script>
+    
+</body>
+</html>
